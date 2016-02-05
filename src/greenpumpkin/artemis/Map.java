@@ -255,4 +255,10 @@ public class Map {
 					return true;
 		return false;
 	}
+
+	public boolean lacksMonsters() {
+		 if(monsterList[0] == null && monsterList[1] == null && monsterList[2] == null)
+			 return true;
+		return false;
+	}
 }
